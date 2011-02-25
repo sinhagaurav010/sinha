@@ -14,7 +14,6 @@
 
 @synthesize window;
 
-
 #pragma mark -
 #pragma mark Application lifecycle
 

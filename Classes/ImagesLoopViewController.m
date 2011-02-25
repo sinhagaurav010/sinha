@@ -59,6 +59,9 @@
 	[imageView release];
 }
 
+#pragma mark -
+#pragma mark scrollViewDidEndDecelerating
+
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)sender {    
 	NSLog(@"%f",scrollView.contentOffset.x);
 	// The key is repositioning without animation      
